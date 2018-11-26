@@ -1,0 +1,9 @@
+﻿
+   / __      ___       __      ___     //  ___               ___   /
+  //   ) ) //   ) ) //   ) ) //   ) ) // //   ) ) //   / / //   ) /
+ //   / / //   / / //   / / //       // //   / / //   / / //   / /
+//   / / ((___( ( //   / / ((____   // ((___/ / ((___( ( ((___/ /
+
+company: www.hancloud.cn
+Application Version: ${application.version}${application.formatted-version}
+Spring Boot Version: ${spring-boot.version}${spring-boot.formatted-version}
