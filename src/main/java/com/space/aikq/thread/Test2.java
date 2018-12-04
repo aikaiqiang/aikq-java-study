@@ -1,4 +1,4 @@
-package com.space.aikq.concurrent;
+package com.space.aikq.thread;
 
 import com.google.common.base.Splitter;
 

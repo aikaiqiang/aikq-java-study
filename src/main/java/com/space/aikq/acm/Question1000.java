@@ -1,4 +1,4 @@
-package com.space.aikq.concurrent;
+package com.space.aikq.acm;
 
 import java.math.BigInteger;
 import java.util.Scanner;

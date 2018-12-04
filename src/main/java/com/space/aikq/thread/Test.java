@@ -1,9 +1,9 @@
-package com.space.aikq.concurrent;
+package com.space.aikq.thread;
 
 import java.util.concurrent.CountDownLatch;
 
 /**
- * @Description 
+ * @Description 多线程
  * @author Administrator
  * @date 2018/9/28 9:50
  */

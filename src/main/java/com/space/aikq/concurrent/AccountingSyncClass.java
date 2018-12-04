@@ -1,7 +1,7 @@
 package com.space.aikq.concurrent;
 
 /**
- * xxx
+ *  synchronized 锁
  * @author Administrator
  * @date 2018年10月19日 14:31
  */
@@ -32,10 +32,11 @@ public class AccountingSyncClass implements Runnable {
 	}
 
 	public static void main(String[] args) throws InterruptedException {
+		AccountingSyncClass syncClass = new AccountingSyncClass();
 		//new新实例
-		Thread t1=new Thread(new AccountingSyncClass());
-		//new心事了
-		Thread t2=new Thread(new AccountingSyncClass());
+		Thread t1=new Thread( new AccountingSyncClass());
+		//new新实例
+		Thread t2=new Thread( new AccountingSyncClass());
 		//启动线程
 		t1.start();t2.start();
 		t1.join();t2.join();
