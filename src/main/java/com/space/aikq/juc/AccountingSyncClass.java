@@ -1,4 +1,4 @@
-package com.space.aikq.concurrent;
+package com.space.aikq.juc;
 
 /**
  *  synchronized 锁
