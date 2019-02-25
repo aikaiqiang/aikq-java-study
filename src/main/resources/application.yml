@@ -4,3 +4,22 @@ server:
 spring:
   application:
     name: Demo-Server
+    http:
+      multipart:
+        # 启用http上传处理
+        enabled: true
+        # 设置单个文件的最大长度
+        max-file-size: 100MB
+        # 设置最大的请求文件的大小
+        max-request-size: 100MB
+        # 当上传文件达到1MB的时候进行磁盘写入
+        file-size-threshold: 1MB
+        # 上传的临时目录
+        # /data/magic/foundation/multipart
+        location: F://image
+
+magic:
+  file:
+    path: F:/zipEntry/test
+    export-path: F:/zipEntry/test
+    aes-key: Hancloud123456
