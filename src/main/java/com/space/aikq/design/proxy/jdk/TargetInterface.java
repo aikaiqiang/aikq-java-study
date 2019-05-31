@@ -1,7 +1,7 @@
 package com.space.aikq.design.proxy.jdk;
 
 /**
- *  测试接口
+ *  定义接口
  * @author aikaiqiang
  * @date 2019年05月31日 11:32
  */
