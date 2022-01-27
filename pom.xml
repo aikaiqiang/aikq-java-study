@@ -11,7 +11,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
-        <xerces.version>2.12.0</xerces.version>
+        <xerces.version>2.12.2</xerces.version>
         <module.version>1.0.0</module.version>
         <auto-value.version>1.3</auto-value.version>
         <auto-factory.version>1.0-beta5</auto-factory.version>
